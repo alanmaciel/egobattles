@@ -1,8 +1,6 @@
+# player: name (string), health (integer).
+#
+name1 = 'larry'
+health1 = 60
+puts name1+ '\'s health is ' + health1.to_s
 
-greeting = "Welcome!"
-
-3.times do
-  puts greeting.upcase
-end
-
-puts Time.now
