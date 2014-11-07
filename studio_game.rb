@@ -1,5 +1,8 @@
 # player: name (string), health (integer).
 #
+#
+current_time = Time.new
+puts "Then game started on #{current_time.strftime('%A %m/%d/%Y at %I:%M%p')}"
 name1 = 'larry'
 health1 = 60
 name2 = 'curly'
