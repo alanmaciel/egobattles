@@ -3,3 +3,6 @@ def say_hello(name)
 end
 
 puts say_hello("larry")
+puts say_hello("curly")
+puts say_hello("moe")
+puts say_hello("shemp")
