@@ -6,6 +6,11 @@ class Player
   def say_hello
     "I'm #{@name} with a health of #{@health}."
   end
+
+  def blam
+    @health -= 10
+    puts "#{@name} got blammed!"
+  end
 end
 
 player1 = Player.new("moe")
