@@ -4,4 +4,5 @@ class Player
   end
 end
 
-player1 = Player.new
+player1 = Player.new("moe", 100)
+puts player1
