@@ -32,13 +32,23 @@ end
 player1 = Player.new("moe")
 player2 = Player.new("larry", 60)
 player3 = Player.new("curly", 125)
-
+player4 = Player.new("shemp", 90)
 players = [player1, player2, player3]
 
-puts "There are #{players.size} in the game:"
+players.pop
+players.push(player4)
+puts "There are #{players.size} players in the game:"
+
 players.each do |player|
+  player.blam
+  player.w00t
+  player.w00t
   puts player
 end
+
+#players.each do |player|
+#  puts player.health
+#end
 
 #puts player1
 #puts player1.health
