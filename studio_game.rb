@@ -67,3 +67,13 @@ knuckleheads.add_player(player2)
 knuckleheads.add_player(player3)
 knuckleheads.play
 
+player5 = Player.new("Alvin", 30)
+player6 = Player.new("Simon", 90)
+player7 = Player.new("Theodore", 100)
+
+chipmunks = Game.new("Chipmunks")
+chipmunks.add_player(player5)
+chipmunks.add_player(player6)
+chipmunks.add_player(player7)
+chipmunks.play
+
