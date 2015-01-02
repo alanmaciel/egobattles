@@ -1,4 +1,4 @@
-require_relative 'player'
+quire_relative 'player'
 require_relative 'game'
 
 player1 = Player.new("moe")
